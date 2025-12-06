@@ -2,7 +2,7 @@ services:
   - type: web
     name: nutrient-backend
     env: python
-    rootDirectory: backend
+    rootDir: backend
     pythonVersion: 3.10
     buildCommand: "pip install -r requirements.txt"
     startCommand: "uvicorn main:app --host 0.0.0.0 --port 8000"
