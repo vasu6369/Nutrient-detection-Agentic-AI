@@ -1,0 +1,558 @@
+/* App.css - Modern Generative AI Theme */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap');
+
+:root {
+    /* Colors */
+    --bg-app: #ffffff;
+    --bg-sidebar: #f8f9fa;
+    --bg-input: #f0f2f5;
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --accent: #10b981; /* Emerald Green */
+    --accent-hover: #059669;
+    --user-bubble: #eefdf5;
+    --border: #e5e7eb;
+
+    /* Dimensions */
+    --sidebar-width: 280px;
+    --input-width: 750px;
+}
+
+* { box-sizing: border-box; }
+
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-app);
+    color: var(--text-primary);
+    overflow: hidden; /* App handles scroll internally */
+}
+
+/* --- Layout Container --- */
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* --- Sidebar --- */
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+
+/* Mobile Sidebar behavior could be added here with media queries */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--text-primary);
+}
+
+.logo-icon {
+    width: 36px;
+    height: 36px;
+    background: #e1f5fe; /* Soft blue/green hint */
+    color: var(--accent);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+}
+
+/* Upload Area in Sidebar */
+.upload-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.upload-placeholder {
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+    background: #fff;
+}
+
+.upload-placeholder:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: #f0fdf4;
+}
+
+.image-preview-wrapper {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.image-preview-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.remove-img-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.analyze-btn {
+    width: 100%;
+    padding: 10px;
+    background: var(--accent);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.analyze-btn:hover { background: var(--accent-hover); }
+
+/* Sidebar Footer Buttons */
+.sidebar-footer {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.mode-toggle, .new-chat-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.mode-toggle:hover, .new-chat-btn:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+.mode-toggle.active {
+    background: #fee2e2;
+    color: #ef4444;
+}
+
+.new-chat-btn {
+    border: 1px solid var(--border);
+    justify-content: center;
+}
+
+/* --- Main Chat Area --- */
+/* 1. The Container: Needs overflow hidden to stop the whole page from scrolling */
+.main-chat {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-app);
+    height: 100%;       /* MUST be 100% */
+    overflow: hidden;   /* MUST be hidden */
+}
+
+/* 2. The List: Needs min-height 0 to enable the scrollbar */
+.chat-history {
+    flex: 1;
+    overflow-y: scroll;   /* Enables vertical scrolling */
+    padding: 40px 20px;
+    padding-bottom: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 0;      /* Crucial fix for Flexbox scrolling */
+    scroll-behavior: smooth;
+}
+.loading-bar-container {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: transparent;
+    z-index: 50;
+}
+.loading-bar {
+    height: 100%;
+    background: var(--accent);
+    transition: width 0.4s ease;
+}
+
+
+/* Welcome Screen */
+.welcome-screen {
+    margin-top: 10vh;
+    text-align: center;
+    max-width: 600px;
+    animation: fadeIn 0.5s ease;
+}
+
+.hero-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #a7f3d0, #10b981);
+    color: white;
+    border-radius: 20px;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.4);
+}
+.hero-icon svg { width: 32px; height: 32px; }
+
+.welcome-screen h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    background: linear-gradient(to right, #10b981, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome-screen p { color: var(--text-secondary); margin-bottom: 32px; }
+
+.suggestion-chips {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.suggestion-chips button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: white;
+    color: var(--text-primary);
+    cursor: pointer;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+.suggestion-chips button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* Messages */
+.message-row {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    animation: slideUp 0.3s ease;
+}
+
+.message-row.user {
+    flex-direction: row-reverse;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    flex-shrink: 0;
+}
+
+.agent-avatar {
+    background: white;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.user-avatar {
+    background: var(--text-primary);
+    color: white;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.bubble {
+    padding: 12px 16px;
+    border-radius: 16px;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    white-space: pre-wrap;
+}
+
+.agent .bubble {
+    background: transparent;
+    color: var(--text-primary);
+    padding-left: 0; /* Align with avatar */
+}
+
+.user .bubble {
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border-radius: 18px 18px 4px 18px;
+}
+
+.typing-indicator span {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 10px;
+    animation: bounce 1.4s infinite ease-in-out both;
+    color: var(--text-secondary);
+    margin: 0 2px;
+}
+.typing-indicator span:nth-child(1) { animation-delay: -0.32s; }
+.typing-indicator span:nth-child(2) { animation-delay: -0.16s; }
+
+/* --- Input Dock (Floating) --- */
+.input-dock {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 24px;
+    background: linear-gradient(to top, var(--bg-app) 60%, transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 20;
+}
+
+.input-capsule {
+    width: 100%;
+    max-width: 768px;
+    background: var(--bg-input);
+    border-radius: 30px; /* Pill shape */
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 0 0 1px transparent;
+    transition: box-shadow 0.2s, background 0.2s;
+}
+
+.input-capsule:focus-within {
+    background: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1), 0 0 0 1px var(--border);
+}
+
+.input-capsule input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 12px;
+    font-size: 1rem;
+    outline: none;
+    color: var(--text-primary);
+}
+
+.icon-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    color: var(--text-secondary);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+}
+
+.icon-btn:hover {
+    background: rgba(0,0,0,0.05);
+    color: var(--text-primary);
+}
+
+.icon-btn.send-btn {
+    background: var(--accent);
+    color: white;
+}
+.icon-btn.send-btn:hover { background: var(--accent-hover); }
+
+.mic-btn.active {
+    background: #fee2e2;
+    color: #ef4444;
+    animation: pulse 1.5s infinite;
+}
+
+.recording-pulse {
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
+}
+
+.footer-note {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    margin-top: 12px;
+}
+
+/* Animations */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
+@keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); } 70% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); } 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); } }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .app-container { flex-direction: column; }
+    .sidebar {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 12px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sidebar-content { display: none; /* Hide advanced tools on mobile for simplicity, or make collapsible */ }
+    .brand { margin-bottom: 0; }
+    .input-dock { padding: 12px; }
+    .input-capsule { border-radius: 24px; }
+    .message-row { max-width: 100%; }
+}
+
+.tts-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.read-btn,
+.pause-btn,
+.resume-btn {
+    padding: 4px 8px;
+    border: none;
+    background: transparent;
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.read-btn:hover,
+.pause-btn:hover,
+.resume-btn:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+.read-toggle-btn {
+    margin-top: 6px;
+    padding: 4px 8px;
+    border: none;
+    background: transparent;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+.read-toggle-btn:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+.message-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.read-bar {
+    cursor:pointer;
+    font-weight: lighter ;
+    font-size: smaller;
+
+}
+
+.read-bar-icon {
+    font-size: 1rem;
+}
+
+.read-bar:hover {
+    text-decoration-line: blink;
+}
+.loading-spinner {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px dotted currentColor;
+    border-top-color: transparent;
+    display: inline-block;
+    margin-right: 6px;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.drop-zone {
+    border: 2px dashed rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    transition: border-color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+}
+
+.drop-zone.drag-over {
+    border-color: #4f9cff;
+    background: rgba(79, 156, 255, 0.08);
+    transform: scale(1.01);
+}
+
+.upload-hint {
+    display: block;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 4px;
+}

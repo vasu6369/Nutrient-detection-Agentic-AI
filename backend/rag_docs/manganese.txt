@@ -1,0 +1,60 @@
+### 🟤 Manganese (Mn) Deficiency — Key Symptoms
+
+- **Interveinal chlorosis** on young and recently matured leaves (not fully new like iron).
+- Small brown/black specks or **“leaf speckling”** between veins.
+- Veins remain greener than the leaf lamina but not as sharp as iron deficiency.
+- Leaves may turn pale grey, crinkled, and brittle under severe deficiency.
+- Reduced leaf size and weak root growth lead to stunting.
+
+📌 Difference from Iron Deficiency:  
+- **Iron → strong chlorosis on youngest leaves with clear green veins**  
+- **Manganese → chlorosis + brown specks, on young but not the newest leaves**
+
+---
+
+### 🌍 Soil & Environmental Causes
+
+- High pH or alkaline soils (pH > 7.5).
+- Calcareous soils with excess lime reduce Mn availability.
+- Sandy soils low in organic matter.
+- Excess application of **Phosphorus or Iron** may suppress Mn uptake.
+- Waterlogged or poorly aerated soils lead to oxidized, unavailable Mn forms.
+
+---
+
+### 🌱 Soil Application (Long-Term Correction)
+
+- Apply **Manganese Sulphate (MnSO₄)** to the soil.
+- Recommended dose: **8–12 kg per acre (20–30 kg/ha)** depending on deficiency level.
+- For alkaline soils, mix MnSO₄ with **compost/FYM** and apply in moist soil.
+- Avoid broadcasting on completely dry soil; irrigate lightly after application.
+- Organic matter addition (compost) helps keep Mn in available form.
+
+---
+
+### 💧 Foliar Spray (Quick Relief)
+
+- **MnSO₄ 0.5% foliar spray** recommended.
+- Preparation: **5 g MnSO₄ per litre of water**, add mild wetting agent.
+- Spray during **morning or evening**; avoid high sunlight to reduce burning.
+- Repeat spray **after 10–15 days** depending on severity.
+- Works quickly for **banana, paddy, pulses, and vegetables** showing speckled leaves.
+
+---
+
+### ⚠️ Precautions & Compatibility
+
+- Do **not mix** MnSO₄ spray with **alkaline pesticides** (lime sulfur, Bordeaux mixture).
+- Avoid spraying with strong Copper formulations — can reduce Mn absorption.
+- Maintain proper drainage in paddy and other waterlogged crops.
+- Excess Mn (rare) causes **brown patches and toxicity** — avoid overuse in acidic soils.
+
+---
+
+### 🍌 Crop-Specific Notes (Banana, Paddy, Soybean, Citrus)
+
+- **Banana:** Light yellow leaves with brown specks → 0.5% MnSO₄ foliar spray + compost addition improves response.
+- **Paddy/Rice:** Common in poorly drained/alkaline fields → soil MnSO₄ + drainage correction recommended.
+- **Soybean & Pulses:** Speckled chlorosis on young leaves → foliar spray effective during early growth stage.
+- **Citrus:** Patchy yellowing with green veins → combine soil MnSO₄ + organic matter to maintain long-term availability.
+

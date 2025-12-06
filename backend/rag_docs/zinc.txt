@@ -1,0 +1,63 @@
+### 🔵 Zinc (Zn) Deficiency — Key Symptoms
+
+- **Shortened internodes** (reduced plant height), known as “rosetting”.
+- Younger leaves show **interveinal chlorosis with whitish stripes**.
+- Leaves may become small, narrow, and distorted.
+- Brown spots or necrotic patches appear on leaf tips/margins under severe deficiency.
+- Poor flowering & delayed maturity; grain/crop quality reduced.
+- In rice, wheat, maize: causes **“Khaira disease”** (grey/brown patches on seedlings).
+
+📌 Difference from Iron Deficiency:
+- Both affect young leaves, but **zinc causes small distorted leaves + short plants**, while **iron causes yellowing without leaf size reduction**.
+
+---
+
+### 🌍 Soil & Environmental Causes
+
+- **Alkaline soils (pH > 7.5)** or calcareous soils with high bicarbonates.
+- Sandy soils low in organic matter.
+- Continuous application of **phosphorus fertilizers (DAP/SSP)** reduces Zn uptake.
+- Flooded paddy fields convert Zn to unavailable form.
+- Excess water or poor drainage in rice increases zinc deficiency risk.
+- Low microbial activity reduces Zn release from organic matter.
+
+---
+
+### 🌱 Soil Application (Long-Term Correction)
+
+- Apply **Zinc Sulphate (ZnSO₄·7H₂O)** to soil.
+- Recommended dose:  
+  **10–12 kg per acre (25–30 kg/ha)** for crops like paddy, wheat, maize, banana.
+- Mix with FYM/compost to improve availability and reduce fixation in alkaline soils.
+- Avoid applying along with heavy doses of phosphorus on the same day.
+- For sustained availability in acidic soils, **Zinc Oxide (ZnO)** can also be used.
+
+---
+
+### 💧 Foliar Spray (Quick Relief)
+
+- **Zinc Sulphate 0.5% + Lime 0.25%** foliar spray is recommended.
+- Preparation per litre:  
+  **5 g ZnSO₄ + 2.5 g lime**, dissolve separately and mix.
+- Lime reduces leaf burn and improves absorption.
+- Repeat **2–3 sprays at 10–12 day intervals** if deficiency persists.
+- Effective for **rice, maize, wheat, banana, citrus, grapes, and vegetables**.
+
+---
+
+### ⚠️ Precautions & Compatibility
+
+- Do **not spray zinc sulphate** without lime — can cause leaf burn.
+- Avoid mixing zinc spray with phosphatic fertilizers or strong copper-based fungicides.
+- Maintain good soil moisture before application; **avoid spraying on drought-stressed plants**.
+- Do not apply zinc sulphate directly to seed or root in concentrated form (causes toxicity).
+
+---
+
+### 🌾 Crop-Specific Notes (Rice, Maize, Banana, Groundnut)
+
+- **Rice (Khaira Disease):** Grey/brown leaf patches & stunting → soil ZnSO₄ application + drainage improvement is essential.
+- **Maize/Wheat:** Short plants with striped leaves → apply ZnSO₄ soil application early + foliar spray at knee-high stage.
+- **Banana:** Small, narrow leaves & poor bunch development → foliar Zn + FYM + split ZnSO₄ soil dose recommended.
+- **Groundnut:** Pale top leaves & weak pods → soil ZnSO₄ before pegging stage improves kernel quality.
+

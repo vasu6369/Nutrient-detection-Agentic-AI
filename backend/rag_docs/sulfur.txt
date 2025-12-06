@@ -1,0 +1,62 @@
+### 🟡 Sulphur (S) Deficiency — Key Symptoms
+
+- Light yellowing (pale green) on **young leaves first** (immobile nutrient).
+- Uniform yellowing across the leaf (not between veins like Mg).
+- Thin, small, narrow leaves with reduced leaf size.
+- Weak stems and delayed maturity; stunted growth.
+- In oilseed crops (mustard, groundnut, sesame), deficiency reduces **oil content**.
+- Reduced aroma, flavor compounds in onion, garlic, and spices.
+
+📌 Difference from Nitrogen Deficiency:
+- **Sulphur → pale yellow on young leaves first**
+- **Nitrogen → yellowing starts on older/lower leaves first**
+
+---
+
+### 🌍 Soil & Environmental Causes
+
+- Sandy soils low in organic matter.
+- Heavy rainfall that washes away sulphate ions (SO₄²⁻).
+- Excess phosphorus or nitrogen may mask sulphur deficiency symptoms.
+- Continuous cropping without organic manure application.
+- Low sulphur in irrigation water (RO/borewell water in some regions).
+- Soils with low microbial activity → less sulphur mineralization.
+
+---
+
+### 🌱 Soil Application (Long-Term Correction)
+
+- Apply **Gypsum (Calcium Sulphate)** or **Elemental Sulphur**.
+- **Gypsum dose:** 20–30 kg per acre (50–75 kg/ha).
+- Mix gypsum with **FYM/compost** and apply near the root zone, not touching the stem.
+- For acidic soils (pH < 6.0), prefer **Elemental Sulphur** for slow release.
+- Oilseed crops (mustard, groundnut) especially benefit from sulphur application.
+
+---
+
+### 💧 Foliar Spray (Quick Fix)
+
+- **2% Ammonium Sulphate (AS) foliar spray** recommended.
+- Preparation: **20 g ammonium sulphate per litre of water**, plus mild wetting agent.
+- Spray in **morning or evening**, avoid hot sun.
+- Repeat after **12–15 days** if symptoms persist.
+- Works effectively in **onion, garlic, cabbage, mustard, and groundnut**.
+
+---
+
+### ⚠️ Precautions & Compatibility
+
+- Do **not mix** foliar sulphur sprays with **lime or alkaline pesticides** (causes precipitation).
+- Avoid using elemental sulphur directly on young seedlings — can cause burn.
+- Maintain good soil moisture before foliar spray for proper absorption.
+- Balanced Nitrogen is needed — excess nitrogen without sulphur reduces protein quality.
+
+---
+
+### 🌾 Crop-Specific Notes (Groundnut, Mustard, Onion, Garlic)
+
+- **Groundnut:** Pale yellow young leaves and reduced pegging → gypsum 30 kg/acre at early flowering + soil moisture maintenance.
+- **Mustard:** Low oil content and light-colored leaves → soil gypsum + foliar ammonium sulphate improves yield and oil recovery.
+- **Onion & Garlic:** Reduced aroma/flavor and thin bulbs → sulphur enhances flavour oils; elemental sulphur helps with long-term correction.
+- **Cabbage & Cauliflower:** Poor head formation → combine gypsum in soil + 2% ammonium sulphate foliar spray.
+

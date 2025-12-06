@@ -1,0 +1,65 @@
+### 🔶 Potassium (K) Deficiency — Key Symptoms
+
+- **Marginal leaf scorching or leaf edge burn** — edges turn yellow → brown → dry.
+- Symptoms appear first on **older/lower leaves** (mobile nutrient).
+- Yellowing starts at edges and tips, progressing inward.
+- Leaf curling, weak stalks, and poor disease resistance.
+- In fruit crops: poor size, low sweetness (TSS), weak color development.
+- Lodging common in cereals (rice, wheat, maize) under severe deficiency.
+
+📌 Difference from Magnesium Deficiency:
+- **Potassium → leaf edge burn & scorching on old leaves**
+- **Magnesium → interveinal yellowing, green veins on old leaves**
+
+---
+
+### 🌍 Soil & Environmental Causes
+
+- Sandy/loamy soils with low clay content (low K retention).
+- Heavy rainfall or excessive irrigation causes K leaching.
+- High Calcium/Magnesium application competes with K uptake.
+- Overuse of ammonium (NH₄⁺) fertilizers reduces K absorption.
+- Continuous cropping without organic matter addition.
+
+---
+
+### 🌱 Soil Application (Long-Term Correction)
+
+- Use **Muriate of Potash (MOP / KCl)** for most crops.
+- Recommended basal dose:  
+  **10–20 kg per acre (25–50 kg/ha)** depending on crop demand.
+- For vegetable & fruit crops under deficiency:  
+  **20–30 kg per acre (50–75 kg/ha)** split dose recommended.
+- Mix MOP with **FYM/compost** and apply near root zone, not too close to stem.
+- In chloride-sensitive crops (tobacco, grapes, potato), prefer **SOP (Sulfate of Potash)**.
+
+---
+
+### 💧 Foliar Spray (Quick Boost)
+
+- Use **Potassium Nitrate (KNO₃) 1–2% foliar spray**.
+- Preparation:  
+  **10–20 g KNO₃ per litre of water** + mild wetting agent.
+- Spray **evening or cloudy weather** for better absorption.
+- Repeat **2–3 sprays at 10–12 day intervals** during fruit development.
+- In banana & grapes, KNO₃ spray improves fruit size, color & sweetness.
+
+---
+
+### ⚠️ Precautions & Compatibility
+
+- Avoid **excess MOP (KCl)** in chloride-sensitive crops (tobacco, grapes, potato).
+- Do **not mix MOP** directly with **urea + DAP** during basal application.
+- Do not spray KNO₃ in **very hot sunny hours** to avoid leaf burn.
+- Balanced nitrogen is important — too much N reduces K uptake.
+- Maintain adequate Magnesium; excess Potassium can cause **Mg deficiency**.
+
+---
+
+### 🍌 Crop-Specific Notes (Banana, Paddy, Grapes, Sugarcane)
+
+- **Banana:** Marginal scorching & poor fruit filling → KNO₃ 1–2% spray during early bunch development; soil MOP split dose strongly recommended.
+- **Paddy/Rice:** Weak stems and lodging at flowering stage → apply MOP with FYM; avoid applying during standing water without draining.
+- **Grapes:** Chloride sensitivity → prefer **SOP** in soil; KNO₃ foliar spray improves berry sweetness.
+- **Sugarcane:** Reduced cane girth & low juice quality → split application of MOP during tillering + grand growth stage.
+

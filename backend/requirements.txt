@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+sentence-transformers
+numpy<2
+opencv-python
+python-multipart
+google-genai
+python-dotenv
+edge-tts

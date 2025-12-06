@@ -1,0 +1,58 @@
+### 🟢 Magnesium (Mg) Deficiency — Key Symptoms
+
+- **Interveinal chlorosis** (yellowing between veins) on **older or lower leaves first**.
+- Leaf veins remain dark green while the lamina turns pale yellow.
+- Margins of leaves may turn reddish-purple under severe deficiency.
+- Leaves may curl upward or show a tiger-stripe pattern in some fruit crops.
+- Premature leaf shedding reduces photosynthesis and yield.
+
+📌 Difference from Iron Deficiency:  
+- **Magnesium → affects old leaves first**  
+- **Iron → affects young leaves first**
+
+---
+
+### 🌍 Soil & Environmental Causes
+
+- Sandy, acidic soils (pH < 6.0) with heavy leaching.
+- High Potassium (MOP) or Calcium application competes with Magnesium uptake.
+- Prolonged rainfall or irrigation leaches Mg from sandy soils.
+- Low organic matter reduces Mg availability.
+- Excess ammonium fertilizers may suppress Mg uptake in crops.
+
+---
+
+### 🌱 Soil Application (Long-Term Correction)
+
+- Apply **Magnesium Sulphate (MgSO₄)** to the soil.
+- Recommended dose: **20–40 kg per acre (50–100 kg/ha)** depending on severity.
+- Mix with **FYM/compost** and apply uniformly around plant root zone.
+- Split application helps in sandy soils or high rainfall regions.
+- In acidic soils (pH < 6.0), apply **Dolomite Lime** for long-term improvement.
+
+---
+
+### 💧 Foliar Spray (Quick Relief)
+
+- **MgSO₄ 2% foliar spray**.
+- Preparation: **20 g MgSO₄ per litre of water**, add mild wetting agent.
+- Spray during **cool hours (morning/evening)** for better absorption.
+- Repeat **after 10–12 days if symptoms persist**.
+- For banana, citrus, grapes → multiple sprays during fruit development stage help prevent yellowing.
+
+---
+
+### ⚠️ Precautions & Compatibility
+
+- Do **not spray** MgSO₄ with **Bordeaux mixture or highly alkaline pesticides**.
+- Avoid mixing with highly concentrated Potassium fertilizers (KCl/MOP) in the same spray tank.
+- Maintain proper soil moisture; avoid foliar application on drought-stressed plants.
+- Excessive Potassium can **worsen Mg deficiency** — balance fertilizer use.
+
+---
+
+### 🍌 Crop-Specific Notes (Banana, Citrus, Coconut, Tomato)
+
+- **Banana:** Lower leaves turn yellow with green midribs → 2% MgSO₄ spray during bunch development stage is effective.
+- **Citrus:** Yellow tiger stripes on old leaves → combine soil MgSO₄ + 2% foliar spray for quick correction.
+- **Coconut:** Leaf margin yellowing on older fronds
